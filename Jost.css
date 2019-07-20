@@ -1,0 +1,220 @@
+/* Usage:
+font-family: Jost,-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol;
+*/
+
+@font-face {
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 100;
+    font-display: swap;
+    src: local('Jost* Hairline'),
+    local('Jost-Hairline'),
+    url(jost-VF.woff) format("woff-variations"),
+    url(jost-VF.woff2) format("woff2-variations"),
+    url(Jost-100-Hairline.woff) format('woff'),
+    url(Jost-100-Hairline.woff2) format('woff2');
+}
+@font-face {
+    font-family: 'Jost';
+    font-style: italic;
+    font-weight: 100;
+    font-display: swap;
+    src: local('Jost* Hairline Italic'),
+    local('Jost-HairlineItalic'),
+    url(jost-VF.woff) format("woff-variations"),
+    url(jost-VF.woff2) format("woff2-variations"),
+    url(Jost-100-HairlineItalic.woff) format('woff'),
+    url(Jost-100-HairlineItalic.woff2) format('woff2');
+}
+@font-face {
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 200;
+    font-display: swap;
+    src: local('Jost* Thin'),
+    local('Jost-Thin'),
+    url(jost-VF.woff) format("woff-variations"),
+    url(jost-VF.woff2) format("woff2-variations"),
+    url(Jost-200-Thin.woff) format('woff'),
+    url(Jost-200-Thin.woff2) format('woff2');
+}
+@font-face {
+    font-family: 'Jost';
+    font-style: italic;
+    font-weight: 200;
+    font-display: swap;
+    src: local('Jost* Thin Italic'),
+    local('Jost-ThinItalic'),
+    url(jost-VF.woff) format("woff-variations"),
+    url(jost-VF.woff2) format("woff2-variations"),
+    url(Jost-200-ThinItalic.woff) format('woff'),
+    url(Jost-200-ThinItalic.woff2) format('woff2');
+}
+@font-face {
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 300;
+    font-display: swap;
+    src: local('Jost* Light'),
+    local('Jost-Light'),
+    url(jost-VF.woff) format("woff-variations"),
+    url(jost-VF.woff2) format("woff2-variations"),
+    url(Jost-300-Light.woff) format('woff'),
+    url(Jost-300-Light.woff2) format('woff2');
+}
+@font-face {
+    font-family: 'Jost';
+    font-style: italic;
+    font-weight: 300;
+    font-display: swap;
+    src: local('Jost* Light Italic'),
+    local('Jost-LightItalic'),
+    url(jost-VF.woff) format("woff-variations"),
+    url(jost-VF.woff2) format("woff2-variations"),
+    url(Jost-300-LightItalic.woff) format('woff'),
+    url(Jost-300-LightItalic.woff2) format('woff2');
+}
+@font-face {
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: local('Jost* Book'),
+    local('Jost-Book'),
+    url(jost-VF.woff) format("woff-variations"),
+    url(jost-VF.woff2) format("woff2-variations"),
+    url(Jost-400-Book.woff) format('woff'),
+    url(Jost-400-Book.woff2) format('woff2');
+}
+@font-face {
+    font-family: 'Jost';
+    font-style: italic;
+    font-weight: 400;
+    font-display: swap;
+    src: local('Jost* Book Italic'),
+    local('Jost-BookItalic'),
+    url(jost-VF.woff) format("woff-variations"),
+    url(jost-VF.woff2) format("woff2-variations"),
+    url(Jost-400-BookItalic.woff) format('woff'),
+    url(Jost-400-BookItalic.woff2) format('woff2');
+}
+@font-face {
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 500;
+    font-display: swap;
+    src: local('Jost* Medium'),
+    local('Jost-Medium'),
+    url(jost-VF.woff) format("woff-variations"),
+    url(jost-VF.woff2) format("woff2-variations"),
+    url(Jost-500-Medium.woff) format('woff'),
+    url(Jost-500-Medium.woff2) format('woff2');
+}
+@font-face {
+    font-family: 'Jost';
+    font-style: italic;
+    font-weight: 500;
+    font-display: swap;
+    src: local('Jost* Medium Italic'),
+    local('Jost-MediumItalic'),
+    url(jost-VF.woff) format("woff-variations"),
+    url(jost-VF.woff2) format("woff2-variations"),
+    url(Jost-500-MediumItalic.woff) format('woff'),
+    url(Jost-500-MediumItalic.woff2) format('woff2');
+}
+@font-face {
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 600;
+    font-display: swap;
+    src: local('Jost* Semi'),
+    local('Jost-Semi'),
+    url(jost-VF.woff) format("woff-variations"),
+    url(jost-VF.woff2) format("woff2-variations"),
+    url(Jost-600-Semi.woff) format('woff'),
+    url(Jost-600-Semi.woff2) format('woff2');
+}
+@font-face {
+    font-family: 'Jost';
+    font-style: italic;
+    font-weight: 600;
+    font-display: swap;
+    src: local('Jost* Semi Italic'),
+    local('Jost-SemiItalic'),
+    url(jost-VF.woff) format("woff-variations"),
+    url(jost-VF.woff2) format("woff2-variations"),
+    url(Jost-600-SemiItalic.woff) format('woff'),
+    url(Jost-600-SemiItalic.woff2) format('woff2');
+}
+@font-face {
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 700;
+    font-display: swap;
+    src: local('Jost* Bold'),
+    local('Jost-Bold'),
+    url(jost-VF.woff) format("woff-variations"),
+    url(jost-VF.woff2) format("woff2-variations"),
+    url(Jost-700-Bold.woff) format('woff'),
+    url(Jost-700-Bold.woff2) format('woff2');
+}
+@font-face {
+    font-family: 'Jost';
+    font-style: italic;
+    font-weight: 700;
+    font-display: swap;
+    src: local('Jost* Bold Italic'),
+    local('Jost-BoldItalic'),
+    url(jost-VF.woff) format("woff-variations"),
+    url(jost-VF.woff2) format("woff2-variations"),
+    url(Jost-700-BoldItalic.woff) format('woff'),
+    url(Jost-700-BoldItalic.woff2) format('woff2');
+}
+@font-face {
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 800;
+    font-display: swap;
+    src: local('Jost* Heavy'),
+    local('Jost-Heavy'),
+    url(jost-VF.woff) format("woff-variations"),
+    url(jost-VF.woff2) format("woff2-variations"),
+    url(Jost-800-Heavy.woff) format('woff'),
+    url(Jost-800-Heavy.woff2) format('woff2');
+}
+@font-face {
+    font-family: 'Jost';
+    font-style: italic;
+    font-weight: 800;
+    font-display: swap;
+    src: local('Jost* Heavy Italic'),
+    local('Jost-HeavyItalic'),
+    url(jost-VF.woff) format("woff-variations"),
+    url(jost-VF.woff2) format("woff2-variations"),
+    url(Jost-800-HeavyItalic.woff) format('woff'),
+    url(Jost-800-HeavyItalic.woff2) format('woff2');
+}
+@font-face {
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 900;
+    font-display: swap;
+    src: local('Jost* Black'),
+    local('Jost-Black'),
+    url(jost-VF.woff) format("woff-variations"),
+    url(jost-VF.woff2) format("woff2-variations"),
+    url(Jost-900-Black.woff) format('woff'),
+    url(Jost-900-Black.woff2) format('woff2');
+}
+@font-face {
+    font-family: 'Jost';
+    font-style: italic;
+    font-weight: 900;
+    font-display: swap;
+    src: local('Jost* Black Italic'),
+    local('Jost-BlackItalic'),
+    url(jost-VF.woff) format("woff-variations"),
+    url(jost-VF.woff2) format("woff2-variations"),
+    url(Jost-900-BlackItalic.woff) format('woff'),
+    url(Jost-900-BlackItalic.woff2) format('woff2');
+}
